@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.logos-container {
+    border-bottom: 2px solid #000;
+    /* Garis bawah */
+    padding-bottom: 10px;
+    /* Jarak antara logo dan garis */
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-left,
+.logo-right {
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.nomor {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    /* Membuat item dapat pindah baris jika diperlukan */
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    flex: 0 0 200px;
+    /* Lebar label */
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-group div {
+    flex: 1;
+    /* Lebar elemen di sebelah kanan label */
+    text-align: left;
+    /* Mengatur teks dan elemen dalam div ke kiri */
+    border-bottom: 1px dotted #000;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+    /* Menambahkan jarak antara checkbox dan label */
+}
+
+.signature-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.signature {
+    text-align: center;
+    width: 45%;
+}
+
+.signature p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.signature .signature-title {
+    margin-bottom: 50px;
+    /* Jarak untuk tanda tangan */
+}
+
+.notes {
+    margin-top: 50px;
+}
+
+.notes label {
+    font-weight: bold;
+}
+
+.notes .box {
+    border: 1px solid #000;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.label-indent {
+    display: block;
+    /* Pastikan label tampil di baris baru */
+    padding-left: 20px;
+    /* Sesuaikan nilai padding sesuai kebutuhan */
+}
+
+.checkbox-container {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Adjust as needed for spacing between items */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-container label {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container .underline {
+    /* border-bottom: 1px solid black;
+    width: 100%; */
+    margin-left: 15px;
+}
